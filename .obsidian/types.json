@@ -1,0 +1,16 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "links": "multitext",
+    "modified": "datetime",
+    "birthDate": "date",
+    "isoCreated": "datetime",
+    "relationShip": "multitext",
+    "schedule": "datetime",
+    "ordinal": "number",
+    "startDate": "date",
+    "endDate": "date"
+  }
+}
