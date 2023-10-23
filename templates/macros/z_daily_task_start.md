@@ -1,0 +1,5 @@
+- [ ] Pray
+- [ ] Tidy up the bed
+- [ ] Plants
+- [ ] [Check currency SGD to PHP exchange](https://www.google.com/search?q=sgd+to+php)
+- [ ] Check [[14_Event MOC|Event MOC]]
