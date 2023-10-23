@@ -1,0 +1,12 @@
+{
+  "accentColor": "",
+  "cssTheme": "Shimmering Focus",
+  "theme": "moonstone",
+  "showViewHeader": true,
+  "nativeMenus": false,
+  "baseFontSizeAction": true,
+  "enabledCssSnippets": [
+    "styles"
+  ],
+  "baseFontSize": 13
+}

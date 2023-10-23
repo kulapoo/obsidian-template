@@ -1,0 +1,7 @@
+{
+  "pinned": [
+    "app:reload",
+    "app:open-settings",
+    "templater-obsidian:create-new-note-from-template"
+  ]
+}

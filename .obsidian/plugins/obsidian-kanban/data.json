@@ -1,0 +1,20 @@
+{
+  "new-note-folder": "inbox",
+  "new-note-template": "templates/idea.md",
+  "metadata-keys": [
+    {
+      "metadataKey": "created",
+      "label": "created",
+      "shouldHideLabel": false,
+      "containsMarkdown": false
+    }
+  ],
+  "date-colors": [],
+  "tag-colors": [
+    {
+      "tagKey": "",
+      "color": "",
+      "backgroundColor": ""
+    }
+  ]
+}
