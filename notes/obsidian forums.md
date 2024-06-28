@@ -5,8 +5,8 @@ created: 2023-09-10
 isoCreated: 2023-09-10T04:38:58.466+08:00
 modified: 
 tags:
-  - output/directory
-  - obsidian/forums
+- output/directory
+- obsidian/forums
 ---
 
 up: [[03_References MOC|References MOC]]

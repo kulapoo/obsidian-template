@@ -2,13 +2,14 @@
   --bg-hue: 230;
   --bg-sat: 25%;
 
-  --color-accent: hsl(300, 72%, 35%);
-  --color-accent-hsl: 300 72% 25%;
-  --interactive-accent: hsl(300 72% 30%);
+  /* `--color-accent-hsl` should have the same values as `--color-accent` */
+  --color-accent: hsl(270 79% 50%);
+  --color-accent-hsl: 270, 79%, 50%;
+  --interactive-accent: hsl(270 79% 45%);
 
   --alt-heading-color: hsl(232 34% 50%);
   --secondary-accent: hsl(28 54% 51%);
-  --hover-accent: hsl(328 100% 54%);
+  --hover-accent: hsl(270 100% 54%);
   --link-unresolved-color: hsl(101 42% 51%);
 }
 
@@ -16,12 +17,18 @@
   --bg-hue: 230;
   --bg-sat: 15%;
 
-  --color-accent: hsl(300, 78%, 40%);
-  --color-accent-hsl: 300 72% 15%;
-  --interactive-accent: hsl(300, 70%, 35%);
+  /* Note that `--color-accent-hsl` should have the same values as `--color-accent` */
+  --color-accent: hsl(270 79% 60%);
+  --color-accent-hsl: 270, 79%, 50%;
+  --interactive-accent: hsl(270 79% 45%);
 
   --alt-heading-color: hsl(232 50% 70%);
   --secondary-accent: hsl(28 63% 61%);
-  --hover-accent: hsl(328 100% 64%);
-  --link-unresolved-color: hsl(101 42% 51%);
+  --hover-accent: hsl(270 100% 64%);
+--link-unresolved-color: hsl(101 42% 51%);
+}
+
+/* Hide the background color settings since they are overwritten by the custom colors above */
+.style-settings-container .setting-item:is([data-id="bg-hue-light"],[data-id="bg-hue-dark"]) {
+display: none;
 }

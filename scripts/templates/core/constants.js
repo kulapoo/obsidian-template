@@ -6,10 +6,9 @@ const dateFormats = {
 }
 
 const noteLocations = {
-  inbox: 'inbox',
-  raw: 'raw',
+  notes: 'notes',
   people: 'people',
-  references: 'references',
+  later: 'inbox',
 }
 
 const templates = {
@@ -17,8 +16,7 @@ const templates = {
   meeting: 'meeting',
   other: 'other',
   people: 'people',
-  reference: 'reference',
-
+  later: 'later'
 }
 
 const globalVarsKeys = {
@@ -28,11 +26,10 @@ const globalVarsKeys = {
 }
 
 const templateDestinations = {
-  [templates.daily]: noteLocations.inbox,
-  [templates.meeting]: noteLocations.inbox,
+  [templates.daily]: noteLocations.notes,
+  [templates.meeting]: noteLocations.notes,
   [templates.people]: noteLocations.people,
-  [templates.reference]: noteLocations.references,
-  [templates.other]: noteLocations.inbox,
+  [templates.other]: noteLocations.notes,
 }
 
 module.exports = function () {

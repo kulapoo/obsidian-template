@@ -1,6 +1,5 @@
 {
   "shimmering-focus@@show-sidebar-header-buttons": true,
-  "shimmering-focus@@show-ribbon": true,
   "shimmering-focus@@show-urls": true,
   "shimmering-focus@@show-new-tab-button": true,
   "shimmering-focus@@show-tab-list-button": true,
@@ -13,13 +12,8 @@
   "shimmering-focus@@overlaying-right-sidebar": false,
   "shimmering-focus@@trim-long-filenames": true,
   "shimmering-focus@@normal-header-bar": false,
-  "shimmering-focus@@no-dimmed-inactive-pane": true,
-  "shimmering-focus@@hide-settings-button": false,
   "shimmering-focus@@hide-attachment-folders": true,
-  "shimmering-focus@@no-built-in-supercharged-links": true,
   "shimmering-focus@@longform-tasks-different": true,
   "shimmering-focus@@tabbar-when-one-tab": "normal-tab-bar",
-  "shimmering-focus@@sidebar-no-animations": true,
-  "shimmering-focus@@hide-trailing-whitespace": false,
-  "shimmering-focus@@show-vault-in-file-explorer": false
+  "shimmering-focus@@hide-trailing-whitespace": false
 }

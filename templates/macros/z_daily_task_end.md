@@ -1,8 +1,6 @@
 - [ ] Review [[01_Inbox MOC|Inbox MOC]]
-- [ ] Bonding with family
-- [ ] Exercise
-- [ ] Prepare food ingredients
-- [ ] Study non tech
-- [ ] Study tech
-- [ ] Pray
-
+- [ ] [[Bonding with family]]
+- [ ] [[Daily exercise]]
+- [ ] [[Prepare daily food ingredients]]
+- [ ] [[Check Study Backlog]]
+- [ ] [[Drink Vitamin]]

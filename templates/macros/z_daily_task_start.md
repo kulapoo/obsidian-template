@@ -1,5 +1,5 @@
-- [ ] Pray
-- [ ] Tidy up the bed
-- [ ] Plants
-- [ ] [Check currency SGD to PHP exchange](https://www.google.com/search?q=sgd+to+php)
+- [ ] [[Pray]]
+- [ ] [[Drink Vitamin]]
+- [ ] [[Tidy up domain]]
+- [ ] [[Tending to houseplants]]
 - [ ] Check [[14_Event MOC|Event MOC]]

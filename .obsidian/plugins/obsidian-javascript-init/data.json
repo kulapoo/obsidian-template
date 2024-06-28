@@ -1,3 +1,0 @@
-{
-  "code": "console.log(\"POTA PEPEPE\");\n\nconsole.log(this, app);\n\n\nconsole.log(this.plugin)"
-}

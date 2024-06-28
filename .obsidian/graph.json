@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "peopl",
+  "search": "",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -25,6 +25,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.2831775516365111,
+  "scale": 1.1167149509616452,
   "close": true
 }
