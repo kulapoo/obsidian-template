@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "05_Directory MOC",
+      "path": "05_Directory MOC.md"
+    },
+    {
+      "basename": "Tur Dal",
+      "path": "notes/Tur Dal.md"
+    },
+    {
+      "basename": "03_References MOC",
+      "path": "03_References MOC.md"
+    },
+    {
+      "basename": "02_Outbox MOC",
+      "path": "02_Outbox MOC.md"
+    },
+    {
+      "basename": "01_Inbox MOC",
+      "path": "01_Inbox MOC.md"
+    },
+    {
+      "basename": "00_Home MOC",
+      "path": "00_Home MOC.md"
+    },
+    {
       "basename": "07_Journal MOC",
       "path": "07_Journal MOC.md"
     },
@@ -17,16 +41,8 @@
       "path": "notes/Zettelkasten workflow.excalidraw.md"
     },
     {
-      "basename": "00_Home MOC",
-      "path": "00_Home MOC.md"
-    },
-    {
       "basename": "2024-06-28",
       "path": "notes/2024-06-28.md"
-    },
-    {
-      "basename": "01_Inbox MOC",
-      "path": "01_Inbox MOC.md"
     },
     {
       "basename": "20_Tags MOC",
@@ -71,10 +87,6 @@
     {
       "basename": "README",
       "path": "README.md"
-    },
-    {
-      "basename": "03_References MOC",
-      "path": "03_References MOC.md"
     }
   ],
   "omittedPaths": [

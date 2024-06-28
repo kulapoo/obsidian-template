@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/daily.md",
+                "file": "05_Directory MOC.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "templates/daily.md",
+                "file": "05_Directory MOC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "templates/daily.md"
+                "file": "05_Directory MOC.md"
               }
             }
           },
@@ -151,8 +151,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d99bc51f61f4cc30",
+  "active": "3399a95f4696b9bc",
   "lastOpenFiles": [
+    "notes/Tur Dal.md",
+    "05_Directory MOC.md",
+    "03_References MOC.md",
+    "02_Outbox MOC.md",
+    "01_Inbox MOC.md",
+    "00_Home MOC.md",
+    "templates/daily.md",
     "templates/book.md",
     "templates/macros/z_init.md",
     "templates/macros/z_daily_task_end.md",
@@ -161,13 +168,10 @@
     "notes/Docs for dev.md",
     "templates/fitness.md",
     "templates/event.md",
-    "templates/daily.md",
     "notes/Add hooks plugin into obsidian.md",
     "notes/Zettelkasten workflow.excalidraw.md",
-    "00_Home MOC.md",
     "notes/2024-06-28.md",
     "notes/Untitled.md",
-    "01_Inbox MOC.md",
     "20_Tags MOC.md",
     "notes/Untitled 1.md",
     "templates/note.md",
@@ -175,10 +179,6 @@
     "templates/people.md",
     "notes/Elon Musk 5 learning principles.md",
     "notes/taena.md",
-    "templates/draw.excalidraw.md",
-    "notes/Digital Zettelkasten - Don't choose keywords.md",
-    "templates/meeting.md",
-    "xcalidraw/Drawing 2023-09-25T193420.excalidraw.md",
     "notes"
   ]
 }
