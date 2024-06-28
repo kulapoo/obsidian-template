@@ -7,8 +7,7 @@ const dateFormats = {
 
 const noteLocations = {
   notes: 'notes',
-  people: 'people',
-  later: 'inbox',
+  people: 'people'
 }
 
 const templates = {
