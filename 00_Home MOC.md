@@ -8,7 +8,7 @@ created: 2023-09-10
 
 # Home 🌎
 
-This document encompasses all of Jopet's notes. This is the base location for all notes. Each note has its own Map of contents or MOC
+This document encompasses all notes. This is the base location for all notes. Each note has its own Map of contents or MOC
 
 # Map of Contents
 
@@ -22,7 +22,7 @@ sort file.name asc
 
 - Notes in the inbox must be processed.
 - Ask yourself the following: Is the note interesting? Does it require a summary? Is it relevant?
-- If so, categorize it as a [[Literature Note]] or place it in [[someday maybe]] for potential future relevance.
+- If so, categorize it as a [[Literature note]] or place it in [[Someday maybe]] for potential future relevance.
 - If a note qualifies as an [[Atomic - Permanent Note]], it can bypass the [[Literature note]] and [[Someday maybe]] stages.
 - Highlights from books, quotes, or wise words from individuals should be moved to the [[Raw]] folder."
 

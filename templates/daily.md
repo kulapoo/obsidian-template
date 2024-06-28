@@ -1,34 +1,61 @@
 ---
+<%*
+let dateFormat = tp.user.constants().dateFormats.dateFormat
+const title = tp.date.now(dateFormat)
+try {
+  await tp.file.rename(title);
+} catch (ex) {
+  alert(ex.message);
+  throw Error(ex.message);
+}
+
+-%>
 <% tp.file.include(tp.file.find_tfile('/templates/macros/z_init')) %>
 tags:
 - log/journal
-<%*
-  let dateFormat = tp.user.constants().dateFormats.dateFormat
--%>
 ---
 up: [[07_Journal MOC|Journal MOC]]
 
-# Tasks
-## Over due
 <% tp.file.cursor() %>
 
+# Tasks
+## Over due
+```dataview
+table
+file.cday as "Created date", filter(tags, (x) => startswith(x,"status/")) as "Status", ordinal as "Priority"
+from #status/overdue
+sort ordinal desc, file.ctime desc
+limit 5
+```
 ## Due Today
+```dataview
+table
+file.cday as "Created date", filter(tags, (x) => startswith(x,"status/")) as "Status", ordinal as "Priority"
+from #status/todo
+where !icontains(tags, "status/todo/daily") AND !icontains(tags, "status/overdue")
+sort ordinal desc, file.ctime desc
+limit 10
+```
 
-
-# Daily Checklist
+# Daily Habits
 
 <% tp.file.include(tp.file.find_tfile('/templates/macros/z_daily_task_start')) %>
 <% tp.file.include(tp.file.find_tfile('/templates/macros/z_daily_task_end')) %>
 
-# Later
 
+# Later - [[01_Inbox MOC#Someday maybe|See all]]
+
+```dataview
+table
+ordinal as "Priority", file.cday as "Created date"
+from ("someday maybe" or #status/backlog)
+sort ordinal desc, file.ctime desc
+limit 6
+```
 
 
 # Notes - Words  of Today
 
-# Daily Quote
-
- <% tp.web.daily_quote() %>
 
 <br />
 <br />

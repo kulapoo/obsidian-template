@@ -9,9 +9,9 @@
   "focusNewTab": true,
   "showInlineTitle": true,
   "newFileLocation": "folder",
-  "newFileFolderPath": "inbox",
+  "newFileFolderPath": "notes",
   "livePreview": true,
-  "propertiesInDocument": "source",
+  "propertiesInDocument": "visible",
   "defaultViewMode": "source",
   "showUnsupportedFiles": true,
   "userIgnoreFilters": [

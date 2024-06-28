@@ -1,8 +1,72 @@
 {
   "recentFiles": [
     {
+      "basename": "07_Journal MOC",
+      "path": "07_Journal MOC.md"
+    },
+    {
+      "basename": "Docs for dev",
+      "path": "notes/Docs for dev.md"
+    },
+    {
+      "basename": "Add hooks plugin into obsidian",
+      "path": "notes/Add hooks plugin into obsidian.md"
+    },
+    {
+      "basename": "Zettelkasten workflow.excalidraw",
+      "path": "notes/Zettelkasten workflow.excalidraw.md"
+    },
+    {
       "basename": "00_Home MOC",
       "path": "00_Home MOC.md"
+    },
+    {
+      "basename": "2024-06-28",
+      "path": "notes/2024-06-28.md"
+    },
+    {
+      "basename": "01_Inbox MOC",
+      "path": "01_Inbox MOC.md"
+    },
+    {
+      "basename": "20_Tags MOC",
+      "path": "20_Tags MOC.md"
+    },
+    {
+      "basename": "Elon Musk 5 learning principles",
+      "path": "notes/Elon Musk 5 learning principles.md"
+    },
+    {
+      "basename": "Digital Zettelkasten - Don't choose keywords",
+      "path": "notes/Digital Zettelkasten - Don't choose keywords.md"
+    },
+    {
+      "basename": "Atomic - Permanent Note",
+      "path": "notes/Atomic - Permanent Note.md"
+    },
+    {
+      "basename": "Chatgpt vs Grammarly",
+      "path": "notes/Chatgpt vs Grammarly.md"
+    },
+    {
+      "basename": "Buy matcha",
+      "path": "notes/Buy matcha.md"
+    },
+    {
+      "basename": "Buy kajun lazada",
+      "path": "notes/Buy kajun lazada.md"
+    },
+    {
+      "basename": "obsidian forums",
+      "path": "notes/obsidian forums.md"
+    },
+    {
+      "basename": "Fleeting Note",
+      "path": "notes/Fleeting Note.md"
+    },
+    {
+      "basename": "Digital Zettelkasten- Principles, Methods, & Examples",
+      "path": "notes/Digital Zettelkasten- Principles, Methods, & Examples.md"
     },
     {
       "basename": "README",
@@ -11,13 +75,13 @@
     {
       "basename": "03_References MOC",
       "path": "03_References MOC.md"
-    },
-    {
-      "basename": "obsidian forums",
-      "path": "references/obsidian forums.md"
     }
   ],
-  "omittedPaths": [],
+  "omittedPaths": [
+    "^templates/",
+    "^scripts/",
+    "^xcalidraw/"
+  ],
   "maxLength": null,
   "openType": "tab"
 }

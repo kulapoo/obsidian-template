@@ -4,11 +4,11 @@
   "cmdr",
   "dataview",
   "cm-editor-syntax-highlight-obsidian",
-  "obsidian-emoji-toolbar",
-  "nldates-obsidian",
   "recent-files-obsidian",
   "templater-obsidian",
-  "obsidian-icon-folder",
   "settings-search",
-  "obsidian-excalidraw-plugin"
+  "obsidian-excalidraw-plugin",
+  "obsidian-style-settings",
+  "tag-wrangler",
+  "obsidian-hover-editor"
 ]

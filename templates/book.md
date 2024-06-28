@@ -4,14 +4,14 @@ alias: <% tp.file.title %>
 author: <% tp.file.cursor() %>
 recommended-by: ''
 tags:
-- source/book 
+- source/book
 ---
 up: [[Book MOC]]
 
 # My thoughts
 
 
-# Related 
+# Related
 
 
 
