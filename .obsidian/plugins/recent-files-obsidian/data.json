@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "00_Home MOC",
+      "path": "00_Home MOC.md"
+    },
+    {
+      "basename": "01_Inbox MOC",
+      "path": "01_Inbox MOC.md"
+    },
+    {
+      "basename": "Zettelkasten workflow.excalidraw",
+      "path": "notes/Zettelkasten workflow.excalidraw.md"
+    },
+    {
       "basename": "05_Directory MOC",
       "path": "05_Directory MOC.md"
     },
@@ -17,14 +29,6 @@
       "path": "02_Outbox MOC.md"
     },
     {
-      "basename": "01_Inbox MOC",
-      "path": "01_Inbox MOC.md"
-    },
-    {
-      "basename": "00_Home MOC",
-      "path": "00_Home MOC.md"
-    },
-    {
       "basename": "07_Journal MOC",
       "path": "07_Journal MOC.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "Add hooks plugin into obsidian",
       "path": "notes/Add hooks plugin into obsidian.md"
-    },
-    {
-      "basename": "Zettelkasten workflow.excalidraw",
-      "path": "notes/Zettelkasten workflow.excalidraw.md"
     },
     {
       "basename": "2024-06-28",

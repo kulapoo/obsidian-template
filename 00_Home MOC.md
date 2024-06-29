@@ -20,11 +20,18 @@ sort file.name asc
 
 # Note workflow
 
-- Notes in the inbox must be processed.
+- Notes must be processed - #input
 - Ask yourself the following: Is the note interesting? Does it require a summary? Is it relevant?
-- If so, categorize it as a [[Literature note]] or place it in [[Someday maybe]] for potential future relevance.
-- If a note qualifies as an [[Atomic - Permanent Note]], it can bypass the [[Literature note]] and [[Someday maybe]] stages.
-- Highlights from books, quotes, or wise words from individuals should be moved to the [[Raw]] folder."
+- If so, categorize it as a [[Literature note]] using #info/reference  tag or place it in [[Someday maybe]]   #status/backlog  tag for potential future relevance.
+- If a note qualifies as an [[Atomic - Permanent Note]] use #output  i.e #output/article , it can bypass the [[Literature note]] and [[Someday maybe]] stages.
+- Highlights from books, quotes, or wise words from individuals should be moved to the [[Raw]]  #info/raw folder.
+- With the help of templater plugin, we can easily create notes using these templates
+	- [[note]] - This will create a note with #input tag
+	- [[daily]]
+	- [[event]]
+	- [[meeting]]
+	- [[people]]
+	- [[reference]] - This will create a note with #info/reference tag
 
 # Flow diagram
 
