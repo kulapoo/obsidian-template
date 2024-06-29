@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/event.md",
+                "file": "templates/macros/z_daily_task_end.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "templates/book.md",
+                "file": "templates/macros/z_daily_task_end.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "templates/book.md"
+                "file": "templates/macros/z_daily_task_end.md"
               }
             }
           },
@@ -188,9 +188,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1e788a71d0767076",
+  "active": "decfa10b747d2628",
   "lastOpenFiles": [
+    "notes/Daily exercise.md",
+    "templates/macros/z_daily_task_end.md",
+    "notes/Bonding with family.md",
+    "README.md",
     "templates/event.md",
+    "templates/book.md",
     "templates/note.md",
     "templates/meeting.md",
     "templates/fitness.md",
@@ -203,9 +208,7 @@
     "notes/Tur Dal.md",
     "03_References MOC.md",
     "02_Outbox MOC.md",
-    "templates/book.md",
     "templates/macros/z_init.md",
-    "templates/macros/z_daily_task_end.md",
     "templates/macros/z_daily_task_start.md",
     "07_Journal MOC.md",
     "notes/Docs for dev.md",
@@ -213,9 +216,6 @@
     "notes/2024-06-28.md",
     "notes/Untitled.md",
     "20_Tags MOC.md",
-    "notes/Untitled 1.md",
-    "notes/tae.md",
-    "templates/people.md",
     "notes"
   ]
 }

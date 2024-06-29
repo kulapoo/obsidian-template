@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
       "basename": "00_Home MOC",
       "path": "00_Home MOC.md"
     },
@@ -83,10 +87,6 @@
     {
       "basename": "Digital Zettelkasten- Principles, Methods, & Examples",
       "path": "notes/Digital Zettelkasten- Principles, Methods, & Examples.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     }
   ],
   "omittedPaths": [
