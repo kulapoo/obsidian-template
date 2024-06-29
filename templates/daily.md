@@ -54,9 +54,6 @@ limit 6
 ```
 
 
-# Notes - Words  of Today
-
-
 <br />
 <br />
 
