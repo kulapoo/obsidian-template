@@ -5,12 +5,52 @@
       "path": "README.md"
     },
     {
-      "basename": "00_Home MOC",
-      "path": "00_Home MOC.md"
+      "basename": "2024-08-15",
+      "path": "notes/2024-08-15.md"
+    },
+    {
+      "basename": "2024-06-28",
+      "path": "notes/2024-06-28.md"
+    },
+    {
+      "basename": "07_Journal MOC",
+      "path": "07_Journal MOC.md"
     },
     {
       "basename": "01_Inbox MOC",
       "path": "01_Inbox MOC.md"
+    },
+    {
+      "basename": "03_References MOC",
+      "path": "03_References MOC.md"
+    },
+    {
+      "basename": "09_People MOC",
+      "path": "09_People MOC.md"
+    },
+    {
+      "basename": "10_Meeting MOC",
+      "path": "10_Meeting MOC.md"
+    },
+    {
+      "basename": "08_Entertainment MOC",
+      "path": "08_Entertainment MOC.md"
+    },
+    {
+      "basename": "15_Book MOC",
+      "path": "15_Book MOC.md"
+    },
+    {
+      "basename": "20_Tags MOC",
+      "path": "20_Tags MOC.md"
+    },
+    {
+      "basename": "02_Outbox MOC",
+      "path": "02_Outbox MOC.md"
+    },
+    {
+      "basename": "00_Home MOC",
+      "path": "00_Home MOC.md"
     },
     {
       "basename": "Zettelkasten workflow.excalidraw",
@@ -25,32 +65,12 @@
       "path": "notes/Tur Dal.md"
     },
     {
-      "basename": "03_References MOC",
-      "path": "03_References MOC.md"
-    },
-    {
-      "basename": "02_Outbox MOC",
-      "path": "02_Outbox MOC.md"
-    },
-    {
-      "basename": "07_Journal MOC",
-      "path": "07_Journal MOC.md"
-    },
-    {
       "basename": "Docs for dev",
       "path": "notes/Docs for dev.md"
     },
     {
       "basename": "Add hooks plugin into obsidian",
       "path": "notes/Add hooks plugin into obsidian.md"
-    },
-    {
-      "basename": "2024-06-28",
-      "path": "notes/2024-06-28.md"
-    },
-    {
-      "basename": "20_Tags MOC",
-      "path": "20_Tags MOC.md"
     },
     {
       "basename": "Elon Musk 5 learning principles",
