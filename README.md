@@ -1,6 +1,6 @@
 
 
-Yet Another Zettelkasten template, a tool crafted to simplify your note organization through the Zettelkasten method. Explore the [[00_Home MOC]] or delve into the **references** folder for detailed insights.
+Yet Another Zettelkasten template, a tool crafted to simplify your note organization through the Zettelkasten method. Explore the [[00_Home MOC]] for detailed insights.
 
 # Setup Guide
 
@@ -31,7 +31,6 @@ Open obsidian `Settings > Community plugins > Browse`. Enable community plugins 
 
 
 ![set default template scripts](./attachments/setup-templater-script-folder.png)
-
 
 
 ## Customization
