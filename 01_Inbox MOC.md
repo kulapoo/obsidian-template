@@ -2,14 +2,30 @@
 alias: Inbox MOC
 created: 2023-09-05
 isoCreated: 2023-09-05T13:06:29.511+08:00
-modified: 
-tags: 
+modified:
+tags:
 - map
 ---
 up: [[00_Home MOC]]
 
+# Fleeting - Only #input
 
-# Fleeting 
+```dataviewjs
+dv.table(
+	["Title", "Created"],
+	dv.pages("#input")
+	.where(p => p.tags && p.tags.length === 1 && p.tags.includes("input"))
+	.map(p => [
+	`[[${p.file.name}]]`,
+	dv.date(p.file.ctime)
+	])
+	.slice(0, 15)
+)
+
+```
+
+
+# Todo And Overdue
 
 ```dataview
 table without id
@@ -18,19 +34,9 @@ file.etags as "Tags",
 
 ordinal as "Priority", file.ctime as "Created date"
 from #input
-where !contains(tags, "status/backlog")
-sort ordinal desc, file.ctime desc 
-```
-
-
-# All
-
-```dataview
-table created
-from #input
-
-sort file.ctime desc
-limit 10
+where !contains(tags, "status/backlog") and !contains(tags, "status/done")
+sort ordinal desc, file.ctime desc
+limit 5
 ```
 
 
@@ -43,12 +49,15 @@ where contains(tags, "status/backlog")
 sort created desc
 ```
 
-# Someday maybe
+
+# All
 
 ```dataview
 table created
-from "someday maybe"
+from #input
+
 sort file.ctime desc
+limit 10
 ```
 
 # Summary

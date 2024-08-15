@@ -16,6 +16,7 @@ table without id
 file.link as "Title"
 from #log/journal
 sort file.ctime desc
+limit 15
 ```
 
 # Summary

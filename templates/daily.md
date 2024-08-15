@@ -15,9 +15,6 @@ tags:
 - log/journal
 ---
 up: [[07_Journal MOC|Journal MOC]]
-
-<% tp.file.cursor() %>
-
 # Tasks
 ## Over due
 ```dataview
@@ -37,11 +34,11 @@ sort ordinal desc, file.ctime desc
 limit 10
 ```
 
-# Daily Habits
+# Habits
 
 <% tp.file.include(tp.file.find_tfile('/templates/macros/z_daily_task_start')) %>
 <% tp.file.include(tp.file.find_tfile('/templates/macros/z_daily_task_end')) %>
-
+<% tp.file.include(tp.file.find_tfile('/templates/macros/z_habit')) %>
 
 # Later - [[01_Inbox MOC#Someday maybe|See all]]
 
@@ -52,6 +49,7 @@ from ("someday maybe" or #status/backlog)
 sort ordinal desc, file.ctime desc
 limit 6
 ```
+
 
 
 <br />

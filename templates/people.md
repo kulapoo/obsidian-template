@@ -3,8 +3,11 @@
 <%*
   const firstName = await tp.system.prompt("Enter first name")
   const lastName = await tp.system.prompt("Enter last name")
+  const name = `${firstName} ${lastName}`;
+  await tp.file.rename(name);
+  const newfile = await tp.file.find_tfile(name);
+  await tp.file.move(`/people/${name}`, newfile);
 
-  await tp.file.rename(`${firstName} ${lastName}`)
 -%>
 company:
 location:
@@ -13,7 +16,7 @@ mobileNumber:
 tags: person
 firstName: <% `${firstName}` %>
 lastName: <% `${lastName}` %>
-relationship: <% tp.file.cursor() %>
+relationship:
 birthDate:
 ---
 up: [[09_People MOC|People MOC]]

@@ -1,6 +1,6 @@
 ---
 <% tp.file.include(tp.file.find_tfile('/templates/macros/z_init')) %>
-tags: 
+tags:
 - info/reference
 <%*
   let dateFormat = tp.user.constants().dateFormats.dateFormat
@@ -8,13 +8,8 @@ tags:
 ---
 up: [[03_References MOC|References MOC]]
 
-<% tp.file.cursor() %>
-
-
 # General
 
-
-# Chatgpt info
 
 
 # Related

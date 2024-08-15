@@ -26,10 +26,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/macros/z_daily_task_end.md",
-                "mode": "source",
+                "file": "README.md",
+                "mode": "preview",
                 "backlinks": false,
-                "source": false
+                "source": true
               }
             }
           },
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "templates/macros/z_daily_task_end.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "templates/macros/z_daily_task_end.md"
+                "file": "README.md"
               }
             }
           },
@@ -171,7 +171,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -190,32 +190,40 @@
   },
   "active": "decfa10b747d2628",
   "lastOpenFiles": [
-    "notes/Daily exercise.md",
-    "templates/macros/z_daily_task_end.md",
-    "notes/Bonding with family.md",
-    "README.md",
     "templates/event.md",
-    "templates/book.md",
-    "templates/note.md",
-    "templates/meeting.md",
+    "attachments/setup-templater-script-folder.png",
+    "attachments/setup-templater-folder.png",
     "templates/fitness.md",
-    "templates/daily.md",
-    "00_Home MOC.md",
-    "01_Inbox MOC.md",
-    "notes/Zettelkasten workflow.excalidraw.md",
-    "xcalidraw/Drawing 2023-09-25T193420.excalidraw.md",
-    "05_Directory MOC.md",
-    "notes/Tur Dal.md",
-    "03_References MOC.md",
-    "02_Outbox MOC.md",
-    "templates/macros/z_init.md",
+    "templates/meeting.md",
+    "templates/note.md",
     "templates/macros/z_daily_task_start.md",
-    "07_Journal MOC.md",
-    "notes/Docs for dev.md",
-    "notes/Add hooks plugin into obsidian.md",
+    "templates/macros/z_daily_task_end.md",
+    "templates/macros/z_init.md",
+    "README.md",
+    "attachments/image.png",
+    "attachments/image-1.png",
+    "image-1.png",
+    "image.png",
+    "attachments/plugins.png",
+    "attachments",
+    "plugins.png",
+    "notes/2024-08-15.md",
     "notes/2024-06-28.md",
-    "notes/Untitled.md",
+    "07_Journal MOC.md",
+    "01_Inbox MOC.md",
+    "03_References MOC.md",
+    "09_People MOC.md",
+    "10_Meeting MOC.md",
+    "08_Entertainment MOC.md",
+    "templates/daily.md",
+    "15_Book MOC.md",
     "20_Tags MOC.md",
+    "02_Outbox MOC.md",
+    "00_Home MOC.md",
+    "templates/draw.excalidraw.md",
+    "templates/book.md",
+    "notes/Daily exercise.md",
+    "notes/Bonding with family.md",
     "notes"
   ]
 }
