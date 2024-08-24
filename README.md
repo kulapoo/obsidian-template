@@ -16,6 +16,8 @@ To kickstart your journey, enable default plugins located at `.obsidian` for a s
 - [Templater](https://obsidian.md/plugins?id=templater-obsidian)
 - [Commander](https://obsidian.md/plugins?search=Commander) - With this plugin, if you’re using a mobile device, you can swipe down from the top to display the "Create from template" option
 
+
+
 Open obsidian `Settings > Community plugins > Browse`. Enable community plugins if its turnoff (this is the default behavior)
 
 ![please check](./attachments/plugins.png)
@@ -32,8 +34,15 @@ Open obsidian `Settings > Community plugins > Browse`. Enable community plugins 
 
 ![set default template scripts](./attachments/setup-templater-script-folder.png)
 
+### Setup default created notes folder destination
+- Go to Settings > Files and links > Default location for new notes
+- In the dropdown options/menu, select "In the folder specified below"
+- "Folder to create new notes in" setting will appear just below, set it to -> **notes**
+
+
 
 ## Customization
+
 
 Make your Zettelkasten uniquely yours by personalizing templates found in `/templates/`. Tailor the system to match your distinctive style and preferences.
 
