@@ -10,7 +10,7 @@ try {
 }
 
 -%>
-<% tp.file.include(tp.file.find_tfile('/templates/macros/z_init')) %>
+<% tp.file.include(tp.file.find_tfile('/templater/macros/z_init')) %>
 tags:
 - log/journal
 ---
@@ -36,9 +36,9 @@ limit 10
 
 # Habits
 
-<% tp.file.include(tp.file.find_tfile('/templates/macros/z_daily_task_start')) %>
-<% tp.file.include(tp.file.find_tfile('/templates/macros/z_daily_task_end')) %>
-<% tp.file.include(tp.file.find_tfile('/templates/macros/z_habit')) %>
+<% tp.file.include(tp.file.find_tfile('/templater/macros/z_daily_task_start')) %>
+<% tp.file.include(tp.file.find_tfile('/templater/macros/z_daily_task_end')) %>
+<% tp.file.include(tp.file.find_tfile('/templater/macros/z_habit')) %>
 
 # Later - [[01_Inbox MOC#Someday maybe|See all]]
 
@@ -50,6 +50,8 @@ sort ordinal desc, file.ctime desc
 limit 6
 ```
 
+
+# Expenses
 
 
 <br />

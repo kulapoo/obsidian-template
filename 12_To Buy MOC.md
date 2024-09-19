@@ -2,8 +2,8 @@
 alias: To Buy MOC
 created: 2023-09-07
 isoCreated: 2023-09-07T18:50:37.650+08:00
-modified:
-tags:
+modified: 
+tags: 
 - map
 ---
 
@@ -12,7 +12,7 @@ tags:
 
 ```dataview
 list
-from #buy
+from #buy 
 where icontains(tags, "status/todo")
 sort file.ctime desc
 limit 15
@@ -22,7 +22,7 @@ limit 15
 
 ```dataview
 list
-from #buy
+from #buy 
 where icontains(tags, "status/done")
 sort file.ctime desc
 limit 20

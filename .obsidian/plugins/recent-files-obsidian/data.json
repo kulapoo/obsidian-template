@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Template",
+      "path": "Excalidraw/Template.md"
+    },
+    {
+      "basename": "15_Book MOC",
+      "path": "15_Book MOC.md"
+    },
+    {
+      "basename": "16_Habit MOC",
+      "path": "16_Habit MOC.md"
+    },
+    {
+      "basename": "17_Work MOC",
+      "path": "17_Work MOC.md"
+    },
+    {
       "basename": "README",
       "path": "README.md"
     },
@@ -35,10 +51,6 @@
     {
       "basename": "08_Entertainment MOC",
       "path": "08_Entertainment MOC.md"
-    },
-    {
-      "basename": "15_Book MOC",
-      "path": "15_Book MOC.md"
     },
     {
       "basename": "20_Tags MOC",

@@ -2,4 +2,4 @@
 - [ ] [[Drink Vitamin]]
 - [ ] [[Tidy up domain]]
 - [ ] [[Tending to houseplants]]
-- [ ] Check [[14_Event MOC|Event MOC]]
+- [ ] [[Check event MOC]]

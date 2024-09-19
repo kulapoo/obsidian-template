@@ -1,11 +1,12 @@
-l---
+---
 alias: Outbox MOC
-created: 2023-09-09
-isoCreated: 2023-09-09T01:34:31.448+08:00
+created: 2023-09-05
+isoCreated: 2023-09-05T14:06:29.511+08:00
 modified: 
 tags: 
 - map
 ---
+
 up: [[00_Home MOC]]
 
 

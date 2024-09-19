@@ -3,7 +3,7 @@ aliases:
   - People MOC
 created: 2023-09-09
 isoCreated: 2023-09-09T01:35:59.078+08:00
-modified:
+modified: 
 tags:
   - map
 ---
@@ -12,7 +12,7 @@ up: [[00_Home MOC]]
 # Family
 
 ```dataview
-list
+list 
 from "people"
 where contains(tags, "family")
 ```

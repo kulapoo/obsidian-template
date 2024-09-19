@@ -15,8 +15,8 @@ up: [[00_Home MOC]]
 table without id
 file.link as "Title",
 file.etags as "Tags",
-startDate as "Start date",
-endDate as "End date"
+dateformat(startDate, "yyyy-MM-dd HH:mm") as "Start date",
+dateformat(endDate, "yyyy-MM-dd HH:mm") as "End date"
 from #log/event 
 where endDate > date(now) OR contains(file.etags, "status/ongoing")
 sort ordinal desc, file.ctime desc
