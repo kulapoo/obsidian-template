@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "z_habit",
+      "path": "templater/macros/z_habit.md"
+    },
+    {
       "basename": "02_Outbox MOC",
       "path": "02_Outbox MOC.md"
+    },
+    {
+      "basename": "01_Inbox MOC",
+      "path": "01_Inbox MOC.md"
     },
     {
       "basename": "16_Habit MOC",
@@ -31,10 +39,6 @@
     {
       "basename": "07_Journal MOC",
       "path": "07_Journal MOC.md"
-    },
-    {
-      "basename": "01_Inbox MOC",
-      "path": "01_Inbox MOC.md"
     },
     {
       "basename": "03_References MOC",

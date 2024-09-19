@@ -26,8 +26,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02_Outbox MOC.md",
-                "mode": "preview",
+                "file": "templater/macros/z_habit.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02_Outbox MOC.md",
+                "file": "templater/macros/z_habit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02_Outbox MOC.md"
+                "file": "templater/macros/z_habit.md"
               }
             }
           },
@@ -177,6 +177,8 @@
   },
   "active": "decfa10b747d2628",
   "lastOpenFiles": [
+    "02_Outbox MOC.md",
+    "01_Inbox MOC.md",
     "16_Habit MOC.md",
     "13_Raw MOC.md",
     "Excalidraw/Template.md",
@@ -213,8 +215,6 @@
     "attachments",
     "plugins.png",
     "notes/2024-08-15.md",
-    "notes/2024-06-28.md",
-    "07_Journal MOC.md",
     "notes"
   ]
 }
