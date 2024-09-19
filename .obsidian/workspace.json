@@ -26,23 +26,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "41878a148ee18d8b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "templates/daily.md",
+                "file": "Excalidraw/Template.md",
                 "mode": "source",
                 "backlinks": false,
-                "source": false
+                "source": true
               }
             }
           },
@@ -131,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Excalidraw/Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Excalidraw/Template.md"
               }
             }
           },
@@ -190,16 +177,33 @@
   },
   "active": "decfa10b747d2628",
   "lastOpenFiles": [
+    "15_Book MOC.md",
+    "Excalidraw/Template.md",
+    "Excalidraw",
+    "16_Habit MOC.md",
+    "17_Work MOC.md",
+    "README.md",
+    "18_Drawing MOC.md",
+    "templater/templates/event.md",
+    "templater/templates/daily.md",
+    "templater/templates/note.md",
+    "templater/templates/people.md",
+    "templater/templates/reference.md",
+    "templater/templates/book.md",
+    "templater/templates/meeting.md",
+    "templater/macros/z_init.md",
+    "templater/macros/z_habit.md",
+    "templater/macros/z_daily_task_start.md",
+    "templater/macros/z_daily_task_end.md",
+    "templater/templates",
+    "templater/macros",
+    "templates/book.md",
     "templates/event.md",
     "attachments/setup-templater-script-folder.png",
     "attachments/setup-templater-folder.png",
     "templates/fitness.md",
     "templates/meeting.md",
     "templates/note.md",
-    "templates/macros/z_daily_task_start.md",
-    "templates/macros/z_daily_task_end.md",
-    "templates/macros/z_init.md",
-    "README.md",
     "attachments/image.png",
     "attachments/image-1.png",
     "image-1.png",
@@ -211,19 +215,6 @@
     "notes/2024-06-28.md",
     "07_Journal MOC.md",
     "01_Inbox MOC.md",
-    "03_References MOC.md",
-    "09_People MOC.md",
-    "10_Meeting MOC.md",
-    "08_Entertainment MOC.md",
-    "templates/daily.md",
-    "15_Book MOC.md",
-    "20_Tags MOC.md",
-    "02_Outbox MOC.md",
-    "00_Home MOC.md",
-    "templates/draw.excalidraw.md",
-    "templates/book.md",
-    "notes/Daily exercise.md",
-    "notes/Bonding with family.md",
     "notes"
   ]
 }

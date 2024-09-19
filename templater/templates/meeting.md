@@ -1,9 +1,9 @@
 ---
-<% tp.file.include(tp.file.find_tfile('/templates/macros/z_init')) %>
-summary:
+<% tp.file.include(tp.file.find_tfile('/templater/macros/z_init')) %>
 tags:
 - log/meeting
-schedule:
+startDate:
+endDate:
 ---
 up: [[10_Meeting MOC|Meeting MOC]]
 # Agenda

@@ -1,5 +1,5 @@
 ---
-<% tp.file.include(tp.file.find_tfile('/templates/macros/z_init')) %>
+<% tp.file.include(tp.file.find_tfile('/templater/macros/z_init')) %>
 <%*
   const firstName = await tp.system.prompt("Enter first name")
   const lastName = await tp.system.prompt("Enter last name")

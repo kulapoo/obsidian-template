@@ -1,6 +1,6 @@
 ---
-<% tp.file.include(tp.file.find_tfile('/templates/macros/z_init')) %>
-tags:
+<% tp.file.include(tp.file.find_tfile('/templater/macros/z_init')) %>
+tags: 
 - info/reference
 <%*
   let dateFormat = tp.user.constants().dateFormats.dateFormat
