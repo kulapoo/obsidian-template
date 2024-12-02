@@ -1,10 +1,10 @@
 ---
-aliases: 
+aliases:
 - References MOC
 created: 2023-09-10
 isoCreated: 2023-09-10T07:10:01.512+08:00
 ordinal: 0
-tags: 
+tags:
 - map
 ---
 up: [[00_Home MOC|Home MOC]]
@@ -15,9 +15,9 @@ up: [[00_Home MOC|Home MOC]]
 table without id
 file.link as "Title",
 file.etags as "Tags"
-from "references" or #info/reference or #output/reference 
+from "references" or #info/reference or #output/reference
 where !contains(tags, "excalidraw")
-sort file.ctime desc
+sort created desc, file.ctime desc
 limit 10
 ```
 
@@ -29,7 +29,7 @@ file.link as "Title",
 file.etags as "Tags"
 from #info/reference
 where !contains(tags, "excalidraw")
-sort file.ctime desc
+sort created desc, file.ctime desc
 ```
 
 # From other sources
@@ -40,13 +40,13 @@ file.link as "Title",
 file.etags as "Tags"
 from "references" and !#info/reference
 where !contains(tags, "excalidraw")
-sort file.ctime desc
+sort created desc, file.ctime desc
 ```
 # Excalidraw
 
 ```dataview
 list
-from #excalidraw 
+from #excalidraw
 ```
 
 

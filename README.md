@@ -4,41 +4,51 @@ Yet Another Zettelkasten template, a tool crafted to simplify your note organiza
 
 # Setup Guide
 
-## Default Settings
+## Installation
 
-To kickstart your journey, enable default plugins located at `.obsidian` for a seamless experience.
+1. git clone this repository -  `git clone https://github.com/yourusername/obsidian-template.git my-notes` or download the repository as a zip file and extract it to a folder named `my-notes`.
+![alt text](./attachments/download-repo.png.png)
+2. Open Obsidian app and create a new vault pointing to the `my-notes` folder. - Open folder as vault`
+3. Go to [manage vault](https://help.obsidian.md/Files+and+folders/Manage+vaults)
+![alt text](./attachments/open-vault.png)
+4. This will automatically set up the necessary plugins and settings.
+5. Restart or reload the Obsidian app to ensure all plugins are correctly installed and settings are applied.
 
-⚠️ **Warning:**
+## Manual Setup
 
-> If you are not subscribed to Obsidian Sync (a core plugin), please follow the instructions and install the plugins listed below.
+If the above steps fail, follow these manual setup instructions to ensure proper configuration.
 
-- [Dataview](https://obsidian.md/plugins?search=dataview)
-- [Templater](https://obsidian.md/plugins?id=templater-obsidian)
-- [Commander](https://obsidian.md/plugins?search=Commander) - With this plugin, if you’re using a mobile device, you can swipe down from the top to display the "Create from template" option
+### Enable Community Plugins
 
-
-
-Open obsidian `Settings > Community plugins > Browse`. Enable community plugins if its turnoff (this is the default behavior)
+1. Open Obsidian.
+2. Navigate to `Settings > Community plugins > Browse`.
+3. Enable community plugins if they are turned off (this is the default behavior).
 
 ![please check](./attachments/plugins.png)
 
+### Install Required Plugins
+
+1. Search for and install the following plugins:
+  - [Dataview](https://obsidian.md/plugins?search=dataview)
+  - [Templater](https://obsidian.md/plugins?id=templater-obsidian)
+  - [Commander](https://obsidian.md/plugins?search=Commander) - This plugin allows you to swipe down from the top on a mobile device to display the "Create from template" option.
+
 ### Setup Templater
 
-> “You might want to check out the scripts (under scripts folder) that only contain constants for formatting dates and other similar purposes. '/scripts/' ”
-
-
-- Change the **Template folder location** to "templates" and **Script files folder location** to "scripts/templates"
+1. Change the **Template folder location** to "templates".
+2. Change the **Script files folder location** to "scripts/templates".
 
 ![set default template folder](./attachments/setup-templater-folder.png)
 
-
 ![set default template scripts](./attachments/setup-templater-script-folder.png)
 
-### Setup default created notes folder destination
-- Go to Settings > Files and links > Default location for new notes
-- In the dropdown options/menu, select "In the folder specified below"
-- "Folder to create new notes in" setting will appear just below, set it to -> **notes**
+### Setup Default Created Notes Folder Destination
 
+1. Go to `Settings > Files and links > Default location for new notes`.
+2. In the dropdown menu, select "In the folder specified below".
+3. Set the "Folder to create new notes in" setting to **notes**.
+
+> You might want to check out the scripts under the `scripts` folder that contain constants for formatting dates and other similar purposes.
 
 
 ## Customization
