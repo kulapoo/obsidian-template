@@ -6,8 +6,8 @@ Yet Another Zettelkasten template, a tool crafted to simplify your note organiza
 
 ## Installation
 
-1. git clone this repository -  `git clone https://github.com/yourusername/obsidian-template.git my-notes` or download the repository as a zip file and extract it to a folder named `my-notes`.
-![alt text](./attachments/download-repo.png)
+1. Clone the repository: `git clone https://github.com/yourusername/obsidian-template.git my-notes` or download and extract the zip file to a folder named `my-notes`. You can rename `my-notes` to any name you prefer.
+![Download Repository](./attachments/download-repo.png)
 2. Open Obsidian app and create a new vault pointing to the `my-notes` folder. - Open folder as vault`
 3. Go to [manage vault](https://help.obsidian.md/Files+and+folders/Manage+vaults)
 
