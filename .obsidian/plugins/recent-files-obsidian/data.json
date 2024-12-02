@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "z_habit",
-      "path": "templater/macros/z_habit.md"
+      "basename": "07_Journal MOC",
+      "path": "07_Journal MOC.md"
+    },
+    {
+      "basename": "05_Directory MOC",
+      "path": "05_Directory MOC.md"
+    },
+    {
+      "basename": "03_References MOC",
+      "path": "03_References MOC.md"
     },
     {
       "basename": "02_Outbox MOC",
@@ -11,6 +19,14 @@
     {
       "basename": "01_Inbox MOC",
       "path": "01_Inbox MOC.md"
+    },
+    {
+      "basename": "z_habit",
+      "path": "templater/macros/z_habit.md"
+    },
+    {
+      "basename": "Zettelkasten workflow.excalidraw",
+      "path": "notes/Zettelkasten workflow.excalidraw.md"
     },
     {
       "basename": "16_Habit MOC",
@@ -37,14 +53,6 @@
       "path": "notes/2024-06-28.md"
     },
     {
-      "basename": "07_Journal MOC",
-      "path": "07_Journal MOC.md"
-    },
-    {
-      "basename": "03_References MOC",
-      "path": "03_References MOC.md"
-    },
-    {
       "basename": "09_People MOC",
       "path": "09_People MOC.md"
     },
@@ -63,14 +71,6 @@
     {
       "basename": "00_Home MOC",
       "path": "00_Home MOC.md"
-    },
-    {
-      "basename": "Zettelkasten workflow.excalidraw",
-      "path": "notes/Zettelkasten workflow.excalidraw.md"
-    },
-    {
-      "basename": "05_Directory MOC",
-      "path": "05_Directory MOC.md"
     },
     {
       "basename": "Tur Dal",

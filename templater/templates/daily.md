@@ -21,7 +21,7 @@ up: [[07_Journal MOC|Journal MOC]]
 table
 file.cday as "Created date", filter(tags, (x) => startswith(x,"status/")) as "Status", ordinal as "Priority"
 from #status/overdue
-sort ordinal desc, file.ctime desc
+sort ordinal desc, created desc, file.ctime desc
 limit 5
 ```
 ## Due Today
@@ -30,7 +30,7 @@ table
 file.cday as "Created date", filter(tags, (x) => startswith(x,"status/")) as "Status", ordinal as "Priority"
 from #status/todo
 where !icontains(tags, "status/todo/daily") AND !icontains(tags, "status/overdue")
-sort ordinal desc, file.ctime desc
+sort ordinal desc, created desc,  file.ctime desc,
 limit 10
 ```
 
@@ -46,7 +46,7 @@ limit 10
 table
 ordinal as "Priority", file.cday as "Created date"
 from ("someday maybe" or #status/backlog)
-sort ordinal desc, file.ctime desc
+sort ordinal desc, created desc, file.ctime desc
 limit 6
 ```
 
