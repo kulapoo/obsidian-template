@@ -81,6 +81,11 @@ You can customize the appearance of your Obsidian notes by using the [Style Sett
 
 For a structured daily journal, update templates under `/templates/macros/z_daily_task_start.md` and `/templates/macros/z_daily_task_end.md`.
 
+## Habit
+For daily habit template, use the `/templates/macros/z_habit.md` template. This template is designed to help you monitor and maintain your daily habits. Customize it to fit your specific needs and integrate it into your daily notes for consistent habit tracking.
+
+> Note: This template does not automatically track habits; it simply provides an extra checklist section in your daily journal for manual tracking.
+
 # Explore More
 
 ## Related Resources
