@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_Home MOC.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "00_Home MOC"
+              "title": "README"
             }
           }
         ]
@@ -124,13 +124,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00_Home MOC.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 00_Home MOC"
+              "title": "Outline of README"
             }
           },
           {
@@ -148,7 +148,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -165,10 +165,26 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "27fcb1b46b22caca",
+  "active": "43f0b5b5d9026bc8",
   "lastOpenFiles": [
-    "notes/Zettelkasten workflow.excalidraw.md",
+    "README.md.tmp.888281.1752341051249",
+    "README.md.tmp.888281.1752340828924",
+    "README.md.tmp.888281.1752340778905",
     "00_Home MOC.md",
+    "README.md.tmp.888281.1752340533336",
+    "README.md.tmp.888281.1752340522731",
+    "README.md.tmp.888281.1752340507213",
+    "templater/templates/event.md",
+    "templater/templates/meeting.md",
+    "notes/Zettelkasten workflow.excalidraw.md",
+    "00_Home MOC.md.tmp.888281.1752340319724",
+    "02_Outbox MOC.md",
+    "03_References MOC.md",
+    "05_Directory MOC.md",
+    "07_Journal MOC.md",
+    "08_Entertainment MOC.md",
+    "README.md",
+    "20_Tags MOC.md",
     "16_Habit MOC.md",
     "notes/Sample Drawing.md",
     "notes/Raw.md",
@@ -183,16 +199,6 @@
     "notes/Elon Musk 5 learning principles.md",
     "notes/Obsidian wish list feature.md",
     "notes/Study how to preserve food.md",
-    "templater/macros/z_daily_task_start.md",
-    "templater/macros/z_daily_task_end.md",
-    "templater/macros/z_habit.md",
-    "templater/templates/daily.md",
-    "notes/2025-07-13.md",
-    "notes/Input habit here.md",
-    "notes/Test Note.md",
-    "01_Inbox MOC.md",
-    "templater/templates/note.md",
-    "notes/taetae.md",
     "templater/templates",
     "templater/macros",
     "templater",
@@ -204,8 +210,6 @@
     "image-1.png",
     "image.png",
     "attachments/plugins.png",
-    "attachments",
-    "plugins.png",
-    "notes"
+    "plugins.png"
   ]
 }

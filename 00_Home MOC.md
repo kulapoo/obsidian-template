@@ -8,7 +8,9 @@ created: 2023-09-10
 
 # Home 🌎
 
-This document encompasses all notes. This is the base location for all notes. Each note has its own Map of contents or MOC
+This document encompasses all notes. This is the base location for all notes. Each note has its own Map of contents or MOC.
+
+> **Note:** All MOC files are optional and can be safely removed. The vault's organization is primarily controlled by **#tags**. MOCs are convenience files that provide structured views of tagged content.
 
 # Map of Contents
 
@@ -17,6 +19,13 @@ list
 from #map 
 sort file.name asc
 ```
+
+## Tag-Based Organization
+
+The vault uses a tag-based system for organization. You can navigate content using tags instead of MOCs:
+- View all tags: [[20_Tags MOC]]
+- Content is automatically organized by tags like `#input`, `#output`, `#info/reference`, etc.
+- MOCs simply provide alternative views of this tag-based structure
 
 # Note workflow
 
@@ -32,6 +41,7 @@ sort file.name asc
 	- [[meeting]]
 	- [[people]]
 	- [[reference]] - This will create a note with #info/reference tag
+	- [[excalidraw]] - For structured visuals like flowcharts, workflows, etc. 
 
 # Flow diagram
 
