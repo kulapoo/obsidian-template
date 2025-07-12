@@ -1,1 +1,1 @@
-- [ ] Add your habits here
+- [ ] [[Input habit here]]

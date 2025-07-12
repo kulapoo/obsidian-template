@@ -1,17 +1,13 @@
 ---
 <% tp.file.include(tp.file.find_tfile('/templater/macros/z_init')) %>
-aliases: Book MOC
-author: 
+aliases:
+author:
 recommended-by: ''
 tags:
 - source/book
+maps: "[[15_Book MOC | Book MOC]]"
 ---
-up: [[15_Book MOC|Book MOC]]
 
-# My thoughts
-
-
-# Related
 
 
 

@@ -1,4 +1,1 @@
 - [ ] [[Review inbox MOC]]
-- [ ] [[Bonding with family]]
-- [ ] [[Daily exercise]]
-- [ ] [[Prepare daily food ingredients]]
