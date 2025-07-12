@@ -35,7 +35,7 @@ git clone https://github.com/kulapoo/obsidian-template.git my-zettelkasten
 
 **Next Steps:**
 1. Open Obsidian app
-2. Create new vault → "Open folder as vault" 
+2. Create new vault → "Open folder as vault"
 3. Select your extracted/cloned folder
 4. The vault will auto-configure with plugins and settings
 5. Restart Obsidian to ensure all plugins load correctly
@@ -90,20 +90,49 @@ This should be automatically configured when you open the vault, but if it's not
 
 Utilize the convenient shortcut `ctrl + N` on Windows or `cmd + N` on Mac to create a new note and choose from a variety of templates:
 
-- **note** - Creates a note with #input tag
-- **daily** - Daily journal template
-- **event** - Event documentation
-- **book** - Book template (for readers)
-- **meeting** - Meeting notes
-- **people** - People profiles
-- **reference** - Creates a note with #info/reference tag
-- **excalidraw** - For drawings, diagrams, and visual content
+- **note** - Creates a note with `#input` tag
+- **daily** - Daily journal template with `#log/journal` tag
+- **event** - Event documentation with `#log/event` tag
+- **book** - Book template with `#source/book` tag
+- **meeting** - Meeting notes with `#log/meeting` tag
+- **people** - People profiles with `#person` tag
+- **reference** - Reference material with `#info/reference` tag
+- **excalidraw** - Visual content with `#input` and `#excalidraw/note` tags
 
 To learn more about using templates, please refer to the [Templater](https://silentvoid13.github.io/Templater/) documentation
 
 > `/templater/macros/z_init.md` - This file is used in each template to insert metadata such as links, creation date, ordinal numbers, and tags.
 
 > `/templater/macros/z_habit.md` - This file is used in each journal or daily template, recommended for tracking frequent habits or tasks you usually do, especially those that may change unexpectedly
+
+## Tag System
+
+The vault uses a structured tagging system to organize content without folders:
+
+### Input & Processing
+- **`#input`** - Unprocessed notes and excalidraw drawings that need review
+
+### Content Sources
+- **`#source/book`** - Books as reference material
+
+### Information & Documentation
+- **`#info/reference`** - Reference materials and documentation
+
+### Activity Logs
+- **`#log/journal`** - Daily journal entries
+- **`#log/event`** - Event records
+- **`#log/meeting`** - Meeting notes
+
+### Task Management
+- **`#status/todo`** - General tasks to be done
+- **`#status/overdue`** - Overdue tasks (high priority)
+- **`#status/backlog`** - Future/someday items
+- **`#delegate`** - Tasks delegated to others
+
+### Special Categories
+- **`#person`** - People and contact information
+- **`#excalidraw/note`** - Visual drawings and diagrams
+- **`#maps`** - MOC (Map of Contents) files
 
 ## Journaling
 
