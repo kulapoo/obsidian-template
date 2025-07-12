@@ -8,22 +8,8 @@ await tp.file.rename(title);
 <% tp.file.include(tp.file.find_tfile('/templater/macros/z_init')) %>
 tags: 
 - input
+maps: "[[01_Inbox MOC|Inbox MOC]]"
 ---
-up: [[01_Inbox MOC|Inbox MOC]]
-
-# General
-
-
-
-
-
-
-# Related
-
-
-<br />
-<br />
-
 
 
 

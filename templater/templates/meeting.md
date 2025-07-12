@@ -4,11 +4,13 @@ tags:
 - log/meeting
 startDate:
 endDate:
+maps: "[[10_Meeting MOC|Meeting MOC]]"
 ---
-up: [[10_Meeting MOC|Meeting MOC]]
 # Agenda
 
+
 # Attendees
+
 
 # Actions
 

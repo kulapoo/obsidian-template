@@ -13,13 +13,8 @@ try {
 <% tp.file.include(tp.file.find_tfile('/templater/macros/z_init')) %>
 tags:
 - log/journal
+maps: "[[07_Journal MOC|Journal MOC]]"
 ---
-up: [[07_Journal MOC|Journal MOC]]
-# Habits
-
-<% tp.file.include(tp.file.find_tfile('/templater/macros/z_daily_task_start')) %>
-<% tp.file.include(tp.file.find_tfile('/templater/macros/z_daily_task_end')) %>
-<% tp.file.include(tp.file.find_tfile('/templater/macros/z_habit')) %>
 # Tasks
 ## Do - Important & Urgent
 ```dataview
@@ -40,12 +35,19 @@ sort ordinal desc, created desc, file.ctime desc
 limit 10
 ```
 
+# Habits
+
+<% tp.file.include(tp.file.find_tfile('/templater/macros/z_daily_task_start')) %>
+<% tp.file.include(tp.file.find_tfile('/templater/macros/z_daily_task_end')) %>
+<% tp.file.include(tp.file.find_tfile('/templater/macros/z_habit')) %>
+
+
 ## Delegate - Not important & Urgent
 
 ```dataview
 table
 file.cday as "Created date", filter(tags, (x) => startswith(x,"status/")) as "Status", ordinal as "Priority"
-from #delagate
+from #delegate
 where !icontains(tags, "status/todo/daily") AND !icontains(tags, "status/overdue")
 sort ordinal desc, created desc, file.ctime desc
 limit 10
@@ -62,11 +64,6 @@ limit 6
 ```
 
 
-# Expenses
-
-
-<br />
-<br />
 
 
 

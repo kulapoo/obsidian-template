@@ -1,5 +1,4 @@
 - [ ] [[Pray]]
-- [ ] [[Drink Vitamin]]
-- [ ] [[Tidy up domain]]
+- [ ] [[This item can be another note]
 - [ ] [[Tending to houseplants]]
 - [ ] [[Check event MOC]]

@@ -6,15 +6,20 @@ tags:
 startDate:
 endDate:
 location: 
+maps: "[[14_Event MOC|Event MOC]]"
 ---
-up: [[14_Event MOC|Event MOC]]
 
-# General
+
+
+
+
+
+
+
+
+
 
 # Attendees
-
-
-
 
 # Action Items for me
 

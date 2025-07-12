@@ -5,19 +5,8 @@ tags:
 <%*
   let dateFormat = tp.user.constants().dateFormats.dateFormat
 -%>
+maps: "[[03_References MOC|References MOC]]"
 ---
-up: [[03_References MOC|References MOC]]
-
-# General
-
-
-
-# Related
-
-
-<br />
-<br />
-
 
 
 

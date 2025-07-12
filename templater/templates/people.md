@@ -18,15 +18,6 @@ firstName: <% `${firstName}` %>
 lastName: <% `${lastName}` %>
 relationship:
 birthDate:
+maps: "[[09_People MOC|People MOC]]"
 ---
-up: [[09_People MOC|People MOC]]
 
-# General
-
-# Description
-
-# Related
-
-
-<br />
-<br />

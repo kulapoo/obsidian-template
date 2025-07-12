@@ -1,6 +1,5 @@
 aliases:
 description:
-created: <% tp.date.now(tp.user.constants().dateFormats.dateFormat) %>
-isoCreated: <% tp.date.now(tp.user.constants().dateFormats.isoFormat) %>
+created: <% tp.date.now() %>
 links:
 ordinal: 0
